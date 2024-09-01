@@ -38,7 +38,6 @@
         android:id="@+id/useremail"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="15dp"/>
 
 </LinearLayout>

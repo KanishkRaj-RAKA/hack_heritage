@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userprofileform"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/material_dynamic_neutral60">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Information"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editMostvisitedplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Most visited place"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editTimingofvisiting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Timing of visiting  "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editOccupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Occupation "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editOccupationdetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Occupation details "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editAnyproblem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Any problem in that place: yes/no"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/edityesDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="If (yes) \n Description:"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Medical information"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Height"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Weight "
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editBloodgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Blood group"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editPreviousdisease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Previous disease "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editCurrentdisease"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Current disease"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editRegularbasesmedicine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Regular bases medicine"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editAllergy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Allergy "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editLastmedicaltest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last medical test "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Description "
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Save"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

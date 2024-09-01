@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/userprofileform"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/material_dynamic_neutral60">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Basic Details"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editdob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="D O B"
+                    android:inputType="date"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Details"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editMotherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mother's Name"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editMcontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contect No."
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editFathername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fathher Name"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editFnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact No."
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editSibling"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="No. of Sibling"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Present Address"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/editHouseNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="House No."
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editStreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Street/lane"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editLandmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="landmark/locality"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Post"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editPolice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Police Station"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="District"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="State"
+                    android:inputType="text"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+                <EditText
+                    android:id="@+id/editPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pin Code"
+                    android:inputType="number"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@android:color/darker_gray" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Save"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
