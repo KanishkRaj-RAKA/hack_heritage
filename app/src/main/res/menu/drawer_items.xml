@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/navbar1"
+            android:title="Profile"
+            />
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/profile2"
+            android:title="Profile"
+            />
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/navbar3"
+            android:title="Alerts"
+            />
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/profile3"
+            android:title="SOS"
+            />
+    </group>
+    <group android:id="@+id/group3">
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/navbar"
+            android:title="Profile"
+            />
+        <item
+            android:icon="@drawable/baseline_person_24"
+            android:id="@+id/profile"
+            android:title="Profile"
+            />
+    </group>
+
+
+</menu>
